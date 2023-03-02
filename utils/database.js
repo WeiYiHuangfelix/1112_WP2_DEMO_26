@@ -1,14 +1,26 @@
 const { Pool } = require('pg');
 
-const pool = new Pool({
+if(process.env.NODE_ENV === 'SUPABASE') {
+        pool = new Pool({
+        user: 'postgres',
+        host: process.env.SUPABASE_HOST,
+        port: '5432',
+        database: 'postgres',
+        password: process.env.SUPABASE_PASSWORD
+    });
+    console.log(`connecting Supabase PostgreSQL  database ${pool.options.database} on port ${pool.options.port}`);
+}else {
+    pool = new Pool({
     user: 'postgres',
-    host: 'db.boadkpezbkrextxfzgiw.supabase.co',
+    host: 'localhost',
     port: '5432',
     database: 'wp2_demo_26',
-    password: 'Aa24213193!'
-});
+    password: '0000'
+    });
+    console.log(`connecting local PostgreSQL database ${pool.options.database} on port ${pool.options.port}`);
+};
 
-console.log(`connecting local posgreSQL database ${pool.options.database} on port ${pool.options.port}`);
+
 
 // pool.query('select * from card_26', [], (error, results) => {
 //     console.log(results)
