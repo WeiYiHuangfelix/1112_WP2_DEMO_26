@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "seven reasons why coffee is awesome",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-1.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "travel to paris",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "travel",
+    "img": "/images/phot-2.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "coffee brings friendship",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-3.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "coffee make you feel good",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-4.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "coffee make you calm",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-5.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "101 tower in Taipei",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-6.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "sun rise from the mountain",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-7.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "serene lake with trees",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-8.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "rocks of queen head in Yehliu Taiwan",
+    "descrip": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "category": "lifestyle",
+    "img": "/images/phot-9.jpg",
+    "remote_img": "https://boadkpezbkrextxfzgiw.supabase.co/storage/v1/object/public/demo-26/card-26/photo-9.jpg"
+  }
+]

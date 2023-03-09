@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-const dotenv = require('dotenv');
+const dotenv = require('dotenv'); //.env
 dotenv.config();
 
 const db = require('./utils/database');
@@ -16,6 +16,8 @@ var usersRouter = require('./routes/users');
 
 const cardRouter_26 = require('./routes/card_26');
 const card2Router_26 = require('./routes/card2_26');
+
+const card2ApiRouter_26 = require('./routes/api/card2ApiRouter_26');
 
 var app = express();
 
@@ -34,6 +36,8 @@ app.use('/users', usersRouter);
 
 app.use('/card_26', cardRouter_26);
 app.use('/card2_26', card2Router_26);
+
+app.use('/api/card2_26', card2ApiRouter_26);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
